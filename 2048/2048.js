@@ -27,6 +27,7 @@ if(!Function.prototype.bind){
 		}
 	}
 }
+//try to git rewrite
 function $(id){
 	return document.getElementById(id);
 }
