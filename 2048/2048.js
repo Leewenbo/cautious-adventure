@@ -32,7 +32,7 @@ function $(id){
 }
 var game={
 	data:[],//保存4x4个单元格中数据的二维数组
-	RN:3,//总行数
+	RN:3,//总行数lll
 	CN:3,//总列数
 	score:0,
 	top:0,//最高分
