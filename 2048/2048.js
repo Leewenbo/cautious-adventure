@@ -13,9 +13,9 @@
 if(!Function.prototype.bind){
 	Function.prototype.bind=function(obj){
 		//this-->当前调用bind方法的函数对象function
-		//将当前函数对象保存为一个局部变量
+		//将当前函数对象保存为一个局部变量hhh
 		var fun=this;//calcSal(base,bonus,other)
-		var args=//将类数组对象转为普通数组
+		var args=//将类数组对象转为普通数组11111
 			Array.prototype.slice.call(arguments,1);
 		//仅获取除obj参数外的剩余参数：[1:8000]
 		//闭包封装了：fun,obj,args
